@@ -1,0 +1,59 @@
+.bg_profile{
+    background-color: black;
+}
+
+#img_bg {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: auto;
+    opacity: 0.1;
+    z-index: -1;
+}
+
+.img_profile {
+    position: relative;
+    top: 200px;
+    left: 15%;
+    width: 400px;
+    height: 400px;
+    z-index: -1;
+    border-radius: 50%;
+}
+.inf {
+    position: relative;
+    top: 200px;
+    text-align: center;
+    color: whitesmoke;
+    font-size: 30px;
+}
+
+@font-face {
+    font-family: oxygen;
+    src: url(pakinake.github.io\Oxygen\Oxygen-Bold.ttf);
+}
+
+.home{
+    position: relative;
+    left: 100px;
+    font-family: oxygen;
+    font-size: 40px;
+    bottom: 300px;
+    text-decoration: none;
+    color: orange;
+}
+
+.friend{
+    position: relative;
+    left: 200px;
+    font-family: oxygen;
+    font-size: 40px;
+    bottom: 300px;
+    text-decoration: none;
+    color: orange;
+}
+
+a:hover{
+    color: #900603;
+}

@@ -1,0 +1,56 @@
+.bg_friend{
+    background-color: black;
+}
+
+#img_bg {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: auto;
+    opacity: 0.1;
+    z-index: -1;
+}
+
+@font-face{
+    font-family: oxygen;
+    src: url(Codecamp6_main\HTML\Homework_1\Oxygen\Oxygen-Bold.ttf);
+}
+
+.heading{
+    font-family: oxygen;
+    text-align: center;
+    color: blanchedalmond;
+    font-size: 60px;
+}
+
+.text {
+    text-align: center;
+    font-family: oxygen;
+    color: whitesmoke;
+}
+
+.home{
+    position: relative;
+    top: 100px;
+    left: 100px;
+    font-family: oxygen;
+    color: orangered;
+    text-decoration: none;
+    font-size: 30px;
+}
+
+.profile{
+    position: relative;
+    top: 100px;
+    left: 200px;
+    font-family: oxygen;
+    color: orangered;
+    text-decoration: none;
+    font-size: 30px;
+}
+
+a:hover{
+    color: royalblue;
+}
+    
