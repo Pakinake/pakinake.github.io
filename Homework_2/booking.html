@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Book Flight</title>
+    <link rel="stylesheet" href="booking.css">
+</head>
+<body>
+    <fieldset class="main">
+        <legend>Book Flight</legend>
+        <div class="box1">
+            <div>
+            <label for="airport">Flying To</label><br>
+                <select name="airport" id="airport">
+                    <option value="donmuang">Don Muang-Bangkok(DMK)</option>
+                    <option value="suvarnabhumi">Suvarnabhumi-Bangkok(BKK)</option>
+                </select>
+            </div>
+            <div>
+                <label for="airport">To</label><br>
+                <select name="airport" id="airport">
+                    <option value="phuket">Phuket(HKT)</option>
+                    <option value="chiangmai">Chiang mai(CNX)</option>
+                    <option value="haneda">Tokyo-Haneda(HND)</option>
+                    <option value="narita">Tokyo-Narita(NRT)</option>
+                    <option value="london">London(LCY)</option>
+                </select>
+            </div>
+            <div>
+                <label for="depart">Departing</label><br>
+                <input type="date" id="datetogo">
+            </div>
+            <div>
+                <label for="return">Returning</label><br>
+                <input type="date" id="return">
+            </div>
+        </div> <br><br>
+        <div class="box2">
+            <div>
+                <label for="adult">Adult</label><br>
+                <input type="number" id="adult" name="adult" min="0" max="10">
+            </div>
+            <div>
+                <label for="child">Child</label><br>
+                <input type="number" id="child" name="child" min="0" max="10">
+            </div>
+            <div>
+                <label for="infant">infant</label><br>
+                <input type="number" id="infant" name="infant" min="0" max="10">
+            </div>
+            <div>
+                <label for="currency">Currency</label><br>
+                <select name="currency" id="currency">
+                    <option value="USA">USD</option>
+                    <option value="ENG">GBP</option>
+                    <option value="TH">BTH</option>
+                    <option value="EU">EUR</option>
+                    <option value="JP">JPY</option>
+                </select></div>
+        </div>
+
+    </fieldset>
+    
+</body>
+</html>
